@@ -1,2 +1,2 @@
 # practice-python3
-some prractice
+some practice
