@@ -86,3 +86,17 @@ else:
 print('your price is: ' + str(price))
 
 
+#在列表之间移动元素
+'''
+有注册但未验证的list，在验证后，移动到已验证的list，并打印出来
+'''
+unconfirmed_users = ['amanda','liya','bb']
+confirmed_users = []
+
+while unconfirmed_users:
+    current_users = unconfirmed_users.pop()
+    confirmed_users.append(current_users)
+
+print('the following users have been confirmed:')
+for confirmed_user in confirmed_users:
+    print(confirmed_user)
